@@ -30,5 +30,8 @@ int main()
             cout << dict[key] << endl;
       }
     }
+    else {
+        wcout << L" Файл не открыт " << endl;
+    }
     return 0;
 }
