@@ -8,6 +8,7 @@ using namespace std;
 
 int main()
 {
+    //Комментарий
     SetConsoleOutputCP(CP_UTF8);
     map<int, string> dict;
     vector<int>keys;
