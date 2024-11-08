@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <fstream>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -20,6 +21,14 @@ int main()
 
       }
       in.close();
+      for (int key: keys) {
+            cout << key << endl;
       }
+      sort(keys.begin(), keys.end());
+      cout << " "<< endl;
+      for(int key: keys) {
+            cout << dict[key] << endl;
+      }
+    }
     return 0;
 }
